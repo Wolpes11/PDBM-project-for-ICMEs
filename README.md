@@ -1,26 +1,4 @@
-# PDBM-project-for-ICMEs
-Utilities for the creation of a CME database and the propagation of ICMEs using the Probabilistic Drag-Based Model (PDBM)
-
-## List of functionalities (Python scripts and/or Python functions) for DB creation:
-- Download and Clean Data from Richardson&Cane (R&C) catalog (TODO)
-- Merging R&C data with LASCO/CDAW data (TODO)
-- Computing derived quantities (e.g. de-projected velocity, acceleration, ...) (TODO)
-
-## List of functionalities for the PDBM:
-- PDBM direct module
-- PDBM inverse module
-- Statistical Inversion of PDBM parameters
-
-## Other utilities for plotting and analyzing the results
-
-
-## Python libraries needed
-Numpy
-Pandas
-Sunpy
-...
-
-## Dataset Description
+# Dataset Description
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''<br/>
 CME data from Richardson & Cane catalog (http://www.srl.caltech.edu/ACE/ASC/DATA/level3/icmetable2.htm) + LASCO CDAW CME List (https://cdaw.gsfc.nasa.gov/CME_list/)
 
@@ -57,3 +35,26 @@ ICME_complete_dataset_v3.csv column details:
 - Analityc_w: (km/s) solar wind value obtained via analytic inversion of the Drag-Based Model equations
 - Analityc_gamma: (km^-1) value of the drag parameter obtained via analytic inversion of the Drag-Based Model equations
 - filename: (string) name of the file containing PDBM information from the statistical inversion procedure
+
+# PDBM-project-for-ICMEs
+Utilities for the creation of a CME database and the propagation of ICMEs using the Probabilistic Drag-Based Model (PDBM)
+
+## List of functionalities (Python scripts and/or Python functions) for DB creation:
+- Download and Clean Data from Richardson&Cane (R&C) catalog (TODO)
+- Merging R&C data with LASCO/CDAW data (TODO)
+- Computing derived quantities (e.g. de-projected velocity, acceleration, ...) (TODO)
+
+## List of functionalities for the PDBM:
+- PDBM direct module
+- PDBM inverse module
+- Statistical Inversion of PDBM parameters
+
+## Other utilities for plotting and analyzing the results
+
+
+## Python libraries needed
+Numpy
+Pandas
+Sunpy
+...
+
